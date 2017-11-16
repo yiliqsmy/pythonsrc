@@ -1,6 +1,0 @@
-5百度云管家上传：
-alert tcp any -> 80 (msg:"Baidu-Cloud-Housekeeper-Upload"; flow:to_server,established; content:"/statistics",nocase,lss,http_url; content:"update.pan.baidu.com",nocase,pos:start,http_host; protocol:http; priority:2; service:Baidu-Cloud-Housekeeper-Upload; sid:88845;)
-17百度网盘下载：
-alert tcp any -> 80 (msg:"Baidu-Cloud-Mobile-Download"; flow:to_server,established; content:"/statistics",nocase,lss,http_url; content:"update.pan.baidu.com",nocase,pos:start,http_host; protocol:http; priority:2; service:Baidu-Cloud-Mobile-Download; sid:88845;)
-18百度网盘上传：
-alert tcp any -> 80 (msg:"Baidu-Cloud-Mobile-Upload"; flow:to_server,established; content:"/statistics",nocase,lss,http_url; content:"update.pan.baidu.com",nocase,pos:start,http_host; protocol:http; priority:2; service:Baidu-Cloud-Mobile-Upload; sid:88845;)
