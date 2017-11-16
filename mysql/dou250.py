@@ -1,7 +1,7 @@
 #! python3
 # -*- coding: utf-8 -*-
 #爬取douban250
-#本地
+#本地，首先保存为TXT，然后打开文件数据存入Mysql;
 from bs4 import BeautifulSoup
 import pymysql
 import requests
