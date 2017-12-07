@@ -1,3 +1,4 @@
+#红黑联盟安全资讯。每页15条新闻
 # -*- coding: utf-8 -*-
 import scrapy
 import re
