@@ -5,7 +5,7 @@
 from pprint import pprint
 import json
 f = open("yyszu.txt", "r")
-f2 = open('getuidata.txt', 'w+')
+f2 = open('getuidata.json', 'w+')
 jsonData=[]
 result = {}
 while True:
